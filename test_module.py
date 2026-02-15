@@ -2,7 +2,6 @@ import unittest
 from RPS_game import play, mrugesh, abbey, quincy, kris
 from RPS import player
 
-
 class UnitTests(unittest.TestCase):
     print()
 
@@ -32,7 +31,6 @@ class UnitTests(unittest.TestCase):
         self.assertTrue(
             actual,
             'Expected player to defeat mrugesh at least 60% of the time.')
-
 
 if __name__ == "__main__":
     unittest.main()
